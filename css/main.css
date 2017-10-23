@@ -44,9 +44,45 @@ nav{
 
   section{
       text-align: center;   
+   
   }
 
   div{
       display: inline-block;
       width: 33%;
   }
+
+  span{
+
+    font-size: 60px;
+  }
+  
+  body section:last-child{
+       margin: 30px 50px 0 70px;
+  }
+  img[alt="Laboratoria"]{
+    width: 150px;
+  }
+
+  button{
+      background-color: #f9a910;
+      padding: 10px;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      border:0;
+      font-weight: 600;  /*hace negrita la letra*/
+  }
+
+  .box-header ul li{
+      margin: 0 15px;
+    
+  }
+
+  span:hover{
+      color: #f9a910;
+  }
+  
+  .box-header:hover ul li{
+      color:#f9a910;
+  }
+
